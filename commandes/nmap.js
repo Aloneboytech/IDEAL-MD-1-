@@ -3,7 +3,7 @@ const { exec } = require("child_process");
 
 zokou({
   nomCom: "nmap",
-  categorie: "FAMOUS-TECH🇭🇹 HACKS",
+  categorie: "INCONNU BOY TECH",
   reaction: "🔍",
   desc: "Scan a domain using Nmap",
   alias: ["scan"]
@@ -16,7 +16,7 @@ zokou({
 
   const domain = arg[0];
 
-  zk.sendMessage(origineMessage, { text: "*POWERED BY FAMOUS-TECH AN HAITIAN Devloper🇭🇹.*" });
+  zk.sendMessage(origineMessage, { text: "*POWERED BY INCONNU BOY 🌬️.*" });
 
   // Check if nmap is installed
   exec("which nmap", (error, stdout, stderr) => {
