@@ -3,7 +3,7 @@ const axios = require("axios");
 /* Je ne suis pas l’auteur se cette commande c’est le travail d’une IA */
 zokou({
   nomCom: "meteo",
-  categorie: "FAMOUS-TECH🇭🇹",
+  categorie: "BUTTERFLY¹⁶ MENU",
   reaction: "🌤️",
   desc: "Donne la météo actuelle pour une ville.",
   alias: ["weather"]
