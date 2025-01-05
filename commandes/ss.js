@@ -5,7 +5,7 @@ const path = require("path");
 
 zokou({
   nomCom: "site-screenshot",
-  categorie: "FAMOUS-TECH🇭🇹",
+  categorie: "INCONNU BOY TECH",
   reaction: "📸",
   desc: "Faire le screenshot du site voulu",
   alias: ["ss"]
@@ -30,7 +30,7 @@ zokou({
 
     zk.sendMessage(origineMessage, {
      image: fs.createReadStream(screenshotPath) 
-caption: `*BY HACKING-MD*`,
+caption: `*BY IDEAL-MD*`,
       
     });
 
