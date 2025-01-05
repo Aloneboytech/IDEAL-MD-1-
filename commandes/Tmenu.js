@@ -28,14 +28,12 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     moment.tz.setDefault('Etc/GMT');
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
-    const WEBSITE = "https://hacking-md.vercel.app"
+    const WEBSITE = "https://whatsapp.com/channel/0029Vax8Y91EQIagKl8aUJ1a"
 
     // En-tête du bot avec style amélioré
     const header = `
 ╔══════《 ${s.BOT} 》══════⊱
-║
 ╟❀ *INFORMATIONS DU BOT* ❀
-║
 ╟🦋 👑 *Propriétaire* : ${s.NOM_OWNER}
 ╟ꕥ 🌟 *Utilisateur* : ${nomAuteurMessage}
 ╟🦋 📅 *Date* : ${date}
@@ -45,11 +43,9 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ╟➣ 📊 *Commandes* : ${cm.length}
 ╟🦋 💻 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ╟ꕥ 🔧 *Système* : ${os.platform()}
-╟🦋 🌐 *Site* : ${WEBSITE}
-║
-╟❀ *DÉVELOPPEURS* : inconnu boy 🩸 
-║
-╚════════════════════⊱
+╟🦋 🌐 *chaîne* : ${WEBSITE}
+╟❀ *DÉVELOPPEURS* :𝐈𝐍𝐂𝐎𝐍𝐍𝐔 𝐁𝐎𝐘
+╚══════════════════════════⊱
 
 ${readmore}`;
 
@@ -81,9 +77,9 @@ ${readmore}`;
 ╚══════════════════⊱
 
 ┏━━━━━━━━━━━━━━━━━┓
-┃  ⭐ IDEAL MD ⭐  ┃
-┃    VERSION ${s.VERSION || "LATEST"}   ┃
-┃ By inconnu boy  ┃
+┃ 🎉 𝐈𝐃𝐄𝐀𝐋-𝐌𝐃 🎉 
+┃.  NEW BOT
+┃ BY 𝐈𝐍𝐂𝐎𝐍𝐍𝐔 𝐁𝐎𝐘
 ┗━━━━━━━━━━━━━━━━━┛`;
 
     // Template du message avec externalAdReply
@@ -92,13 +88,14 @@ ${readmore}`;
         caption: header + menuContent,
         contextInfo: {
             externalAdReply: {
-                title: `HACKING-MD MENU`,
+                title: `𝐈𝐃𝐄𝐀𝐋-𝐌𝐃 𝐌𝐄𝐍𝐔
+                `,
                 body: `Version ${s.VERSION || "LATEST"}`,
                 mediaType: 1,
                 previewType: 0,
                 renderLargerThumbnail: true,
                 thumbnailUrl: mybotpic(),
-                sourceUrl: 'https://hacking-md.vercel.app' 
+                sourceUrl: 'https://whatsapp.com/channel/0029Vax8Y91EQIagKl8aUJ1a' 
             }
         }
     };
@@ -117,13 +114,14 @@ ${readmore}`;
                     caption: header + menuContent,
                     contextInfo: {
                         externalAdReply: {
-                            title: `HACKING-MD MENU`,
+                            title: `𝐈𝐃𝐄𝐀𝐋-𝐌𝐃 𝐌𝐄𝐍𝐔
+                            `,
                             body: `Version ${s.VERSION || "LATEST"}`,
                             mediaType: 1,
                             previewType: 0,
                             renderLargerThumbnail: true,
                             thumbnailUrl: lien,
-                            sourceUrl: 'https://hacking-md.vercel.app'
+                            sourceUrl: 'https://whatsapp.com/channel/0029Vax8Y91EQIagKl8aUJ1a'
                         }
                     },
                     gifPlayback: true
@@ -134,13 +132,14 @@ ${readmore}`;
                     caption: header + menuContent,
                     contextInfo: {
                         externalAdReply: {
-                            title: `HACKING-MD MENU`,
+                            title: `𝐈𝐃𝐄𝐀𝐋-𝐌𝐃 𝐌𝐄𝐍𝐔
+                            `,
                             body: `Version ${s.VERSION || "LATEST"}`,
                             mediaType: 1,
                             previewType: 0,
                             renderLargerThumbnail: true,
                             thumbnailUrl: lien,
-                            sourceUrl: 'https://hacking-md.vercel.app'
+                            sourceUrl: 'https://whatsapp.com/channel/0029Vax8Y91EQIagKl8aUJ1a'
                         }
                     }
                 }, { quoted: ms });
@@ -176,7 +175,7 @@ function getCategoryEmoji(category) {
         'divers': '📦',
         'éditeurs d’images': '🖼️',
         'download': '📥',
-        'famous-tech': '🌟',
+        'inconnu boy tech': '🌟',
         'games': '🎮',
         'hentai': '🍑',
         'heroku': '🛠️',
