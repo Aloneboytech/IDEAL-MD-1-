@@ -70,7 +70,7 @@ zokou({
     "ENVOI DES DOCUMENTS DE LOG...",
     "DONNÉES ENVOYÉES AVEC SUCCÈS, connexion déconnectée",
     "ANTÉRIORITÉS SUPPRIMÉES",
-    "ALIMENTÉ PAR HACKING-MD",
-    "Par Thomas TECH"
+    "ALIMENTÉ PAR IDÉAL MD",
+    "Par INCONNU BOY TECH"
     `); 
 });
