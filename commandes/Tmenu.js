@@ -36,18 +36,18 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║
 ╟❀ *INFORMATIONS DU BOT* ❀
 ║
-╟➣ 👑 *Propriétaire* : ${s.NOM_OWNER}
-╟➣ 🌟 *Utilisateur* : ${nomAuteurMessage}
-╟➣ 📅 *Date* : ${date}
-╟➣ ⏰ *Heure* : ${temps}
-╟➣ ⚡ *Préfixe* : ${s.PREFIXE}
-╟➣ 🌐 *Mode* : ${mode}
+╟🦋 👑 *Propriétaire* : ${s.NOM_OWNER}
+╟ꕥ 🌟 *Utilisateur* : ${nomAuteurMessage}
+╟🦋 📅 *Date* : ${date}
+╟ꕥ ⏰ *Heure* : ${temps}
+╟🦋 ⚡ *Préfixe* : ${s.PREFIXE}
+╟ꕥ 🌐 *Mode* : ${mode}
 ╟➣ 📊 *Commandes* : ${cm.length}
-╟➣ 💻 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-╟➣ 🔧 *Système* : ${os.platform()}
-╟➣ 🌐 *Site* : ${WEBSITE}
+╟🦋 💻 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+╟ꕥ 🔧 *Système* : ${os.platform()}
+╟🦋 🌐 *Site* : ${WEBSITE}
 ║
-╟❀ *DÉVELOPPEURS* : inconnu boy 
+╟❀ *DÉVELOPPEURS* : inconnu boy 🩸 
 ║
 ╚════════════════════⊱
 
