@@ -32,20 +32,20 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     // En-tête du bot avec style amélioré
     const header = `
-╔══════《 ${s.BOT} 》══════⊱
-╟❀ *INFORMATIONS DU BOT* ❀
-╟🦋 👑 *Propriétaire* : ${s.NOM_OWNER}
-╟ꕥ 🌟 *Utilisateur* : ${nomAuteurMessage}
-╟🦋 📅 *Date* : ${date}
-╟ꕥ ⏰ *Heure* : ${temps}
-╟🦋 ⚡ *Préfixe* : ${s.PREFIXE}
-╟ꕥ 🌐 *Mode* : ${mode}
-╟➣ 📊 *Commandes* : ${cm.length}
-╟🦋 💻 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-╟ꕥ 🔧 *Système* : ${os.platform()}
-╟🦋 🌐 *chaîne* : ${WEBSITE}
-╟❀ *DÉVELOPPEURS* :𝐈𝐍𝐂𝐎𝐍𝐍𝐔 𝐁𝐎𝐘
-╚══════════════════════════⊱
+╔════《 ${s.BOT} 》══⊱
+╟ ❀ ✨𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ✨ ❀
+╟ 👑 *Propriétaire* : ${s.NOM_OWNER}
+╟ 🧑‍💻 *Utilisateur* : ${nomAuteurMessage}
+╟ 📅 *Date* : ${date}
+╟ ⏰ *Heure* : ${temps}
+╟ 🔑 *Préfixe* : ${s.PREFIXE}
+╟ 🔧 *Mode* : ${mode}
+╟ 📜 *Commandes* : ${cm.length}
+╟ 💻 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+╟ 🖥️ *Système* : ${os.platform()}
+╟ 🌐 *Chaîne* : ${WEBSITE}
+╟ 🎮 *DVS* : 𝐈𝐍𝐂𝐎𝐍𝐍𝐔 𝐁𝐎𝐘
+╚═════════════════⊱
 
 ${readmore}`;
 
@@ -78,7 +78,7 @@ ${readmore}`;
 
 ┏━━━━━━━━━━━━━━━━━┓
 ┃ 🎉 𝐈𝐃𝐄𝐀𝐋-𝐌𝐃 🎉 
-┃.  NEW BOT
+┃  NEW BOT
 ┃ BY 𝐈𝐍𝐂𝐎𝐍𝐍𝐔 𝐁𝐎𝐘
 ┗━━━━━━━━━━━━━━━━━┛`;
 
